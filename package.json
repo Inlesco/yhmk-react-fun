@@ -1,0 +1,14 @@
+{
+  "name": "yhmk-react-fun",
+  "version": "1.0.0",
+  "description": "A package containing a simple dummy book API, which should be used in the challenge",
+  "scripts": {
+    "start": "json-server --port 3010 --watch api.json"
+  },
+  "keywords": ["react-is-fun", "yellow-hammock", "there-is-no-chatbot-here", "keep-out", "you-heard-it-right"],
+  "author": "Yellow Hammock",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "0.10.1"
+  }
+}
