@@ -1,0 +1,26 @@
+.filter {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #0089b3;
+    
+    &-button {
+       background-color: #0089b3;
+       color: white;
+       border: 1px solid #0089b3;
+       box-sizing: border-box;
+       padding: 15px;
+       width: 49%;
+       text-transform: uppercase;
+       cursor: pointer;
+       transition: all .15s ease-in-out;
+
+       &:hover {
+        background-color: #007599;
+        color: white;
+       }
+    }
+}
+    

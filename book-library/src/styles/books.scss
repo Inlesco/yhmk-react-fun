@@ -1,0 +1,81 @@
+.book-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-card {
+        background-color: white;
+        text-align: center;
+        border: 1px solid #c2ccd6;
+        width: 49%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px #dfdfdf;
+
+        &-header {
+            width: 90%;
+            margin: 0 auto;   
+
+            &-author {
+                color: #33404d;
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+
+            &-title {
+                font-size: 20px;
+                color: #0089b3;
+                text-transform: uppercase;
+                text-align: center;
+                text-overflow: ellipsis; 
+                overflow: hidden;
+                white-space: nowrap;
+                font-weight: 400;
+                margin: 0; 
+            }  
+        }
+    }
+    
+    &-download {
+
+        &-title {
+            color: #33404d;
+        }
+
+        &-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            &-item {
+                padding: 10px;
+                border-top: 1px solid #c2ccd6;
+                transition: all .15s ease-in-out;
+
+                &-link {
+                    display: block;
+                    text-overflow: ellipsis; 
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-decoration: none;
+
+                    &:link {
+                        color: #0089b3;
+                    }
+
+                    &:visited {
+                        color: #33404d;
+                    }
+                }
+
+                &:hover {
+                    background-color: #effafc;
+                    color: white;
+                }
+            }
+        }
+    }
+}
