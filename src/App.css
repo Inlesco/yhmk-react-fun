@@ -1,0 +1,27 @@
+.App {
+  text-align: left;
+  line-height: 1.1;
+  display: flex;
+  flex-flow: column;
+ }
+
+.App-title {
+    font-size: 1.5em;
+}
+  
+h1{
+    text-align: center;
+}
+
+.header{
+  background-color: rgb(206, 202, 202);
+}
+
+li{
+  border-bottom: 1px solid black;
+}
+
+.booklist{
+  background-color: rgb(231, 231, 231);
+}
+
