@@ -1,0 +1,13 @@
+ 
+.book-container{
+    margin: 20px;
+  }
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+

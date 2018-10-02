@@ -1,9 +1,6 @@
-{
-  "subjects": [
-    "Fiction",
-    "Science"
-  ],
-  "books": [
+export default function() {
+  return [
+   
     {
       "id": 1342,
       "authors": [
@@ -128,5 +125,5 @@
       ],
       "title": "The Adventures of Tom Sawyer"
     }
-  ]
+  ];
 }
